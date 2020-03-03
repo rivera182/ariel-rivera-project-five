@@ -445,25 +445,7 @@ footer p {
 }
 
 @media (max-width: 500px) {
-  nav {
-    flex-direction: column;
-  }
   h1 {
-    font-size: 4rem;
-  }
-  .categories, .countries {
-    flex-wrap: wrap;
-  }
-}
-
-@media (max-width: 365px) {
-  nav {
-    flex-direction: column;
-  }
-  h1 {
-    font-size: 3rem;
-  }
-  .categories, .countries {
-    flex-wrap: wrap;
+    font-size: 3.5rem;
   }
 }
