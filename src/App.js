@@ -27,7 +27,7 @@ class App extends Component {
   componentDidMount() {
     axios({
       method: 'GET',
-      url: 'http://newsapi.org/v2/top-headlines',
+      url: 'https://newsapi.org/v2/top-headlines',
       responseType: 'json',
       params: {
         apiKey: '1138489a75ea4722ae7c10e95975584f',
@@ -60,7 +60,7 @@ class App extends Component {
     });
     axios({
       method: 'GET',
-      url: 'http://newsapi.org/v2/top-headlines',
+      url: 'https://newsapi.org/v2/top-headlines',
       responseType: 'json',
       params: {
         apiKey: '1138489a75ea4722ae7c10e95975584f',
@@ -96,7 +96,7 @@ class App extends Component {
     });
     axios({
       method: 'GET',
-      url: 'http://newsapi.org/v2/top-headlines',
+      url: 'https://newsapi.org/v2/top-headlines',
       responseType: 'json',
       params: {
         apiKey: '1138489a75ea4722ae7c10e95975584f',

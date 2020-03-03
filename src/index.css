@@ -442,6 +442,12 @@ footer p {
     font-size: 2rem;
     font-weight: 600;
   }
+  .nav-menu li {
+    margin-right: 0
+  }
+  .nav-menu li:last-of-type {
+    margin-left: 0
+  }
 
   h1 {
     font-size: 4rem;
