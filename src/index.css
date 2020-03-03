@@ -432,12 +432,36 @@ footer p {
 
 /* MOBILE STYLES */
 
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 4rem;
+  }
+  .categories, .countries {
+    flex-wrap: wrap;
+  }
+}
+
 @media (max-width: 500px) {
   nav {
     flex-direction: column;
   }
   h1 {
-    font-size: 5rem;
+    font-size: 4rem;
+  }
+  .categories, .countries {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 365px) {
+  nav {
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 3rem;
   }
   .categories, .countries {
     flex-wrap: wrap;

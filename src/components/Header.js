@@ -8,7 +8,7 @@ const Header = (props) => {
         <header>
             <div className="wrapper">
                 <nav className="nav-menu">
-                    <h1>News</h1>  
+                    <h1>News News</h1>  
                     <ul>
                         <li onClick={() => props.menuClick("country")}>
                             Country
