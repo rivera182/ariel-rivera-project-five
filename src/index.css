@@ -274,7 +274,6 @@ h1 {
   width: 100%;
   background: var(--footer-color);
   box-shadow: 0px 1px 2px #464545, 0px 0px 3px #535353;
-  font-size: 1.3rem;
   overflow: hidden;
 }
 
@@ -283,6 +282,7 @@ h1 {
 }
 
 .sub-menu li {
+  font-size: 1.3rem;
   padding: 5px 10px;
   transition: 0.2s;
   font-weight: 100;
@@ -438,6 +438,11 @@ footer p {
   nav {
     flex-direction: column;
   }
+  .nav-menu li, .sub-menu li {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+
   h1 {
     font-size: 4rem;
   }
