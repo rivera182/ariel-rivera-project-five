@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/rivera182/ariel-rivera-project-five.git/static/css/main.4d846db1.chunk.css",
+    "main.js": "/rivera182/ariel-rivera-project-five.git/static/js/main.85d137ba.chunk.js",
+    "main.js.map": "/rivera182/ariel-rivera-project-five.git/static/js/main.85d137ba.chunk.js.map",
+    "runtime-main.js": "/rivera182/ariel-rivera-project-five.git/static/js/runtime-main.445b37c6.js",
+    "runtime-main.js.map": "/rivera182/ariel-rivera-project-five.git/static/js/runtime-main.445b37c6.js.map",
+    "static/js/2.027e6f03.chunk.js": "/rivera182/ariel-rivera-project-five.git/static/js/2.027e6f03.chunk.js",
+    "static/js/2.027e6f03.chunk.js.map": "/rivera182/ariel-rivera-project-five.git/static/js/2.027e6f03.chunk.js.map",
+    "index.html": "/rivera182/ariel-rivera-project-five.git/index.html",
+    "precache-manifest.06c94063b5ee5ff7cee4f6d76580a15d.js": "/rivera182/ariel-rivera-project-five.git/precache-manifest.06c94063b5ee5ff7cee4f6d76580a15d.js",
+    "service-worker.js": "/rivera182/ariel-rivera-project-five.git/service-worker.js",
+    "static/css/main.4d846db1.chunk.css.map": "/rivera182/ariel-rivera-project-five.git/static/css/main.4d846db1.chunk.css.map",
+    "static/js/2.027e6f03.chunk.js.LICENSE.txt": "/rivera182/ariel-rivera-project-five.git/static/js/2.027e6f03.chunk.js.LICENSE.txt",
+    "static/media/news.jpg": "/rivera182/ariel-rivera-project-five.git/static/media/news.6c9dbcb5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.445b37c6.js",
+    "static/js/2.027e6f03.chunk.js",
+    "static/css/main.4d846db1.chunk.css",
+    "static/js/main.85d137ba.chunk.js"
+  ]
+}
