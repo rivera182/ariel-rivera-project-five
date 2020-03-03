@@ -169,7 +169,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   box-sizing: border-box;
 }
 
-/* GENERAL STYLING */
+/* VARIABLES */
 
 @import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Montserrat|Raleway&display=swap');
 :root {
@@ -182,15 +182,14 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
   --news-box-color: #eceaea;
 }
 
+/* GENERAL STYLING */
+
 html {
   font-size: 62.5%;
 }
 
 body {
   margin: 0;
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
   background: var(--background-color);
   font-size: 1.8rem;
 }
@@ -231,16 +230,16 @@ nav {
 }
 
 nav ul {
-  text-transform: uppercase;
   display: flex;
   align-items: center;
+  text-transform: uppercase;
   margin: 0;
 }
 
 h1 {
   font-family: var(--logo-font);
-  padding: 10px;
   color: #fff;
+  padding: 10px;
   margin: 10px;
   margin-bottom: 0;
   font-size: 7rem;
@@ -250,10 +249,10 @@ h1 {
   font-size: 1.4rem;
   font-weight: 100;
   padding: 10px;
-  transition: 0.2s;
   margin-right: 40px;
-  letter-spacing: 2px;
   margin-bottom: 10px;
+  letter-spacing: 2px;
+  transition: 0.2s;
 }
 
 .nav-menu li:last-of-type {
@@ -300,20 +299,20 @@ h1 {
 }
 
 .categories, .countries {
-  color: var(--background-color);
   display: flex;
   justify-content: space-around;
+  color: var(--background-color);
   text-transform: uppercase;
 }
 
 /* MAIN SECTION */
 
 .loading-container {
-  height: 80vh;
-  font-size: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 80vh;
+  font-size: 30px;
 }
 
 .img-container {
@@ -322,14 +321,14 @@ h1 {
 }
 
 main h2 {
-  font-family: var(--secondary-font);
-  text-align: center;
-  background: var(--news-box-color);
-  padding: 10px;
-  box-shadow: 0px 0px 5px #464545, 0px 0px 5px #535353;
   display: inline-block;
+  background: var(--news-box-color);
+  box-shadow: 0px 0px 5px #464545, 0px 0px 5px #535353;
   border-radius: 4px;
+  padding: 10px;
+  font-family: var(--secondary-font);
   font-weight: 900;
+  text-align: center;
 }
 
 h3 {
@@ -349,20 +348,16 @@ p:last-of-type {
 }
 
 .articles-container {
-  width: 100%;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 /* MASONRY CSS STARTS HERE*/
 
 .my-masonry-grid {
-  /* display: -webkit-box; */
-  /* Not needed if autoprefixing */
-  /* display: -ms-flexbox; */
-  /* Not needed if autoprefixing */
   display: flex;
   margin-left: -30px;
   /* gutter size offset */
@@ -382,11 +377,11 @@ p:last-of-type {
 /* MASONRY CSS ends HERE*/
 
 .single-news-container {
-  position: relative;
-  z-index: 5;
-  border-radius: 4px;
-  box-shadow: 0px 0px 5px #464545, 0px 0px 5px #535353;
   background: var(--news-box-color);
+  box-shadow: 0px 0px 5px #464545, 0px 0px 5px #535353;
+  border-radius: 4px;
+  position: relative;
+  z-index: 999;
   margin: 10px 0px 10px;
   padding: 10px;
   font-size: 1.3rem;
@@ -395,18 +390,18 @@ p:last-of-type {
 }
 
 .single-news-container:hover {
+  background: #fff;
   scale: 1.03;
   z-index: 999;
-  background: #fff;
   cursor: pointer;
 }
 
 .remove-post {
   position: absolute;
-  top: 10px;
-  right: 10px;
   background: rgba(0, 0, 0, 0.4);
   color: rgba(225, 225, 225, 0.4);
+  top: 10px;
+  right: 10px;
   padding: 3px 3px 1px;
   border-radius: 50%;
   font-size: 2rem;
