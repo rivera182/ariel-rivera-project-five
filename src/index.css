@@ -313,6 +313,7 @@ h1 {
   align-items: center;
   height: 80vh;
   font-size: 30px;
+  color: var(--nav-color)
 }
 
 .img-container {
@@ -338,13 +339,14 @@ h3 {
 
 p {
   font-family: var(--secondary-font);
-  line-height: 1.7rem;
+  line-height: 2rem;
   font-size: 1.5rem;
 }
 
 p:last-of-type {
   font-size: 1rem;
   font-weight: 600;
+  border-top: 1px solid gray;
 }
 
 .articles-container {
