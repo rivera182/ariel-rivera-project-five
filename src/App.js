@@ -6,6 +6,7 @@ import axios from 'axios';
 import Header from './components/Header';
 import Main from './components/Main';
 import Footer from './components/Footer';
+import Qs from 'qs';
 
 class App extends Component {
   constructor() {
@@ -24,16 +25,24 @@ class App extends Component {
     }
   }
 
+
   componentDidMount() {
     axios({
       method: 'GET',
-      url: 'https://newsapi.org/v2/top-headlines',
+      url: 'https://proxy.hackeryou.com',
       responseType: 'json',
+      paramsSerializer: function (params) {
+        return Qs.stringify(params, { arrayFormat: 'brackets' })
+      },
       params: {
-        apiKey: '1138489a75ea4722ae7c10e95975584f',
-        language: 'en',
-        pageSize: '100',
-        page: 1
+        reqUrl: 'https://newsapi.org/v2/top-headlines',
+        params: {
+          apiKey: '1138489a75ea4722ae7c10e95975584f',
+          language: 'en',
+          pageSize: '100',
+          page: 1,
+          xmlToJSON: false
+        },
       }
     }).then((response) => {
       // put response in const
@@ -60,14 +69,21 @@ class App extends Component {
     });
     axios({
       method: 'GET',
-      url: 'https://newsapi.org/v2/top-headlines',
+      url: 'https://proxy.hackeryou.com',
       responseType: 'json',
+      paramsSerializer: function (params) {
+        return Qs.stringify(params, { arrayFormat: 'brackets' })
+      },
       params: {
-        apiKey: '1138489a75ea4722ae7c10e95975584f',
-        country: 'ca',
-        category: category,
-        pageSize: '100',
-        page: 1
+        reqUrl: 'https://newsapi.org/v2/top-headlines',
+        params: {
+          apiKey: '1138489a75ea4722ae7c10e95975584f',
+          country: 'ca',
+          category: category,
+          pageSize: '100',
+          page: 1,
+          xmlToJSON: false
+        }
       }
     }).then((response) => {
       // put response in const
@@ -96,14 +112,21 @@ class App extends Component {
     });
     axios({
       method: 'GET',
-      url: 'https://newsapi.org/v2/top-headlines',
+      url: 'https://proxy.hackeryou.com',
       responseType: 'json',
+      paramsSerializer: function (params) {
+        return Qs.stringify(params, { arrayFormat: 'brackets' })
+      },
       params: {
-        apiKey: '1138489a75ea4722ae7c10e95975584f',
-        country: 'ca',
-        country: country,
-        pageSize: '100',
-        page: 1
+        reqUrl: 'https://newsapi.org/v2/top-headlines',
+        params: {
+          apiKey: '1138489a75ea4722ae7c10e95975584f',
+          country: 'ca',
+          country: country,
+          pageSize: '100',
+          page: 1,
+          xmlToJSON: false
+        }
       }
     }).then((response) => {
       // put response in const
@@ -181,7 +204,7 @@ articleLink = (link) => {
         {/* //this is a statement for if the news posts are loading or not */}
         {this.state.isLoading ?
             <div className="loading-container">
-              <i class="fas fa-sync fa-spin"></i>
+              <i className="fas fa-sync fa-spin"></i>
             </div>
           :
           <Main 
