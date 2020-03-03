@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ffbbf47b8863d7d2838abd169f0d93bc",
+    "revision": "61616436635318c8d0d71de705168003",
     "url": "/ariel-rivera-project-five/index.html"
   },
   {
-    "revision": "40e168a35429ab3f13a7",
-    "url": "/ariel-rivera-project-five/static/css/main.157c919a.chunk.css"
+    "revision": "5d0dfb2001da56e4dfd2",
+    "url": "/ariel-rivera-project-five/static/css/main.b1718b1b.chunk.css"
   },
   {
-    "revision": "e00b5a944edafc20f666",
-    "url": "/ariel-rivera-project-five/static/js/2.027e6f03.chunk.js"
+    "revision": "f83e6068fb222a862917",
+    "url": "/ariel-rivera-project-five/static/js/2.19eafa23.chunk.js"
   },
   {
     "revision": "99bd0487192ec9e7d9ee8fbbd91ee444",
-    "url": "/ariel-rivera-project-five/static/js/2.027e6f03.chunk.js.LICENSE.txt"
+    "url": "/ariel-rivera-project-five/static/js/2.19eafa23.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "40e168a35429ab3f13a7",
-    "url": "/ariel-rivera-project-five/static/js/main.1a9f97e2.chunk.js"
+    "revision": "5d0dfb2001da56e4dfd2",
+    "url": "/ariel-rivera-project-five/static/js/main.e7140f64.chunk.js"
   },
   {
     "revision": "ada9a86d1cf720f5c697",
